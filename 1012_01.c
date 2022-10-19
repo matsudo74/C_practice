@@ -10,6 +10,9 @@ int main(void)
   printf("%d+%d=%d\n", a, b, a + b);
   printf("%d-%d=%d\n", a, b, a - b);
   printf("%d*%d=%d\n", a, b, a * b);
+  printf("%d/%d=%d\n", a, b, a / b);
   printf("%d%%%d=%d\n", a, b, a % b);
   return (0);
 }
+
+/*％は整数型の時にだけ使用、四捨五入される*/

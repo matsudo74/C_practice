@@ -16,6 +16,6 @@ int main(void)
 
   a = (double)m / 3;
 
-  printf("平均値は%f\n", a);
+  printf("平均値は%.3f\n", a);
   return (0);
 }
