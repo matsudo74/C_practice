@@ -4,33 +4,49 @@ int main(void)
 {
   int a;
 
-  printf("何月か言うてみ。：");
+  printf("月を入力せよ：");
   scanf("%d", &a);
 
   switch (a)
   {
   case 3:
+    printf("%d月は春です\n", a);
+    break;
   case 4:
+    printf("%d月は春です\n", a);
+    break;
   case 5:
-    puts("春ですね");
+    printf("%d月は春です\n", a);
     break;
   case 6:
+    printf("%d月は夏です\n", a);
+    break;
   case 7:
+    printf("%d月は夏です\n", a);
+    break;
   case 8:
-    puts("夏ですね");
+    printf("%d月は夏です\n", a);
     break;
   case 9:
+    printf("%d月は秋です\n", a);
+    break;
   case 10:
+    printf("%d月は秋です\n", a);
+    break;
   case 11:
-    puts("秋ですね");
+    printf("%d月は秋です\n", a);
     break;
   case 12:
+    printf("%d月は冬です\n", a);
+    break;
   case 1:
+    printf("%d月は冬です\n", a);
+    break;
   case 2:
-    puts("冬ですね");
+    printf("%d月は冬です\n", a);
     break;
   default:
-    puts("そんな月ほんまにあるんか？");
+    puts("そんな月はありません");
     break;
   }
 
